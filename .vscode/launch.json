@@ -1,0 +1,41 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Gate",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/gateway",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [ "run", "start:dev" ],
+            "console": "integratedTerminal",
+            "protocol": "auto",
+            "restart": true,
+        },
+        {
+            "name": "Token",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/token",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [ "run", "start:dev" ],
+            "console": "integratedTerminal",
+            "protocol": "auto",
+            "restart": true,
+        },
+        {
+            "name": "User",
+            "type": "node",
+            "request": "launch",
+            "cwd": "${workspaceRoot}/user",
+            "runtimeExecutable": "npm",
+            "runtimeArgs": [ "run", "start:dev" ],
+            "console": "integratedTerminal",
+            "protocol": "auto",
+            "restart": true,
+        },
+    ]
+}

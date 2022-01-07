@@ -1,0 +1,22 @@
+{
+  "name": "microservice-server-nest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "init:gate": "cd gateway && npm i",
+    "init:token": "cd token && npm i",
+    "init:user": "cd user && npm i"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lin-smg/microservice-server-nest.git"
+  },
+  "author": "YLP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lin-smg/microservice-server-nest/issues"
+  },
+  "homepage": "https://github.com/Lin-smg/microservice-server-nest#readme"
+}
